@@ -66,6 +66,7 @@ BEGIN_MESSAGE_MAP(CGitTestRemoteDlg, CDialogEx)
 	ON_WM_PAINT()
 	ON_WM_QUERYDRAGICON()
 	ON_BN_CLICKED(IDOK, &CGitTestRemoteDlg::OnBnClickedOk)
+	ON_BN_CLICKED(IDCANCEL, &CGitTestRemoteDlg::OnBnClickedCancel)
 END_MESSAGE_MAP()
 
 
@@ -161,4 +162,11 @@ void CGitTestRemoteDlg::OnBnClickedOk()
 	// TODO: ここにコントロール通知ハンドラー コードを追加します。
 	//変更1
 	CDialogEx::OnOK();
+}
+
+
+void CGitTestRemoteDlg::OnBnClickedCancel()
+{
+	// TODO: ここにコントロール通知ハンドラー コードを追加します。
+	CDialogEx::OnCancel();
 }
