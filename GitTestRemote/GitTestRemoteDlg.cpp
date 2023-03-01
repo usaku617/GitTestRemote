@@ -159,5 +159,6 @@ HCURSOR CGitTestRemoteDlg::OnQueryDragIcon()
 void CGitTestRemoteDlg::OnBnClickedOk()
 {
 	// TODO: ここにコントロール通知ハンドラー コードを追加します。
+	//変更1
 	CDialogEx::OnOK();
 }
