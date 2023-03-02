@@ -162,6 +162,7 @@ void CGitTestRemoteDlg::OnBnClickedOk()
 	// TODO: ここにコントロール通知ハンドラー コードを追加します。
 	//変更1
 	//変更2
+	//変更3
 	CDialogEx::OnOK();
 }
 
