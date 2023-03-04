@@ -163,6 +163,7 @@ void CGitTestRemoteDlg::OnBnClickedOk()
 	//変更1
 	//変更2
 	//変更3
+	//変更4
 	CDialogEx::OnOK();
 }
 
