@@ -172,5 +172,6 @@ void CGitTestRemoteDlg::OnBnClickedCancel()
 {
 	// TODO: ここにコントロール通知ハンドラー コードを追加します。
 	//変更1
+	//変更2
 	CDialogEx::OnCancel();
 }
